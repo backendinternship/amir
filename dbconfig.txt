@@ -1,0 +1,10 @@
+username: amir
+password: amir78
+RECORDS_TABLE: records
+VIEW_COUNT_TABLE: vc
+DATABASE_NAME: rss
+ID_COL: id
+TITLE_COL: title
+DESCRIPTION_COL: des
+LINK_COL: link
+VIEW_COUNT_COL: vc

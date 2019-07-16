@@ -1,18 +1,17 @@
 package main;
 
 import java.sql.*;
-import java.util.ArrayList;
 import java.util.List;
 
 class DAO {
-    public static final String RECORDS_TABLE = "records";
-    public static final String VIEW_COUNT_TABLE = "vc";
-    public static final String DATABASE_NAME = "rss";
-    public static final String ID_COL = "id";
-    public static final String TITLE_COL = "title";
-    public static final String DESCRIPTION_COL = "des";
-    public static final String LINK_COL = "link";
-    public static final String VIEW_COUNT_COL = "vc";
+    public static final String RECORDS_TABLE = ConfigReader.getInstance().getFromConfigFile("RECORDS_TABLE");
+    public static final String VIEW_COUNT_TABLE = ConfigReader.getInstance().getFromConfigFile("VIEW_COUNT_TABLE");
+    public static final String DATABASE_NAME = ConfigReader.getInstance().getFromConfigFile("DATABASE_NAME");
+    public static final String ID_COL = ConfigReader.getInstance().getFromConfigFile("ID_COL");
+    public static final String TITLE_COL = ConfigReader.getInstance().getFromConfigFile("TITLE_COL");
+    public static final String DESCRIPTION_COL = ConfigReader.getInstance().getFromConfigFile("DESCRIPTION_COL");
+    public static final String LINK_COL = ConfigReader.getInstance().getFromConfigFile("LINK_COL");
+    public static final String VIEW_COUNT_COL = ConfigReader.getInstance().getFromConfigFile("VIEW_COUNT_COL");
 
     private static DAO instance = new DAO();
     private Connection connect;

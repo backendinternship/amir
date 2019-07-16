@@ -7,7 +7,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ConfigReader {
-    public static final String CONFIG_FILE = "config.txt";
+    public static final String CONFIG_FILE = "dbconfig.txt";
     private static ConfigReader ourInstance = new ConfigReader();
 
     private ConfigReader() {
