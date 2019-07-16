@@ -17,35 +17,57 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Downloader {
+
+    public static final String TITLE_TAG = "title";
+    public static final String DESCRIPTION_TAG = "description";
+    public static final String LINK_TAG = "link";
+    public static final String GUID_TAG = "guid";
+    public static final String GUID_REGEX = "p=(\\d*)";
+    public static final String XML_FILE = "rss.xml";
+    public static final String RSS_ADRESS = "https://www.digitaltrends.com/feed/";
+    public static final String ITEM_TAG = "item";
+    private static Downloader instance = new Downloader();
+
+    private Downloader() {
+    }
+
     public static void main(String[] args) {
+        Downloader.getInstance().downloadAndParse();
+    }
+
+    public static Downloader getInstance() {
+        return instance;
+    }
+
+    public void downloadAndParse() {
         try {
             updateRSS();
-            Database.updateRecords(parse());
+            Database.getInstance().updateRecords(parse());
         } catch (ParserConfigurationException | IOException | SAXException e) {
             e.printStackTrace();
         }
     }
 
-    private static ArrayList<Record> parse() throws ParserConfigurationException, IOException, SAXException {
-        File file = new File("rss.xml");
+    private ArrayList<Record> parse() throws ParserConfigurationException, IOException, SAXException {
+        File file = new File(XML_FILE);
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document doc = builder.parse(file);
         doc.getDocumentElement().normalize();
-        NodeList nlist = doc.getElementsByTagName("item");
+        NodeList nlist = doc.getElementsByTagName(ITEM_TAG);
 
         ArrayList<Record> records = new ArrayList<>();
         for (int i = 0; i < nlist.getLength(); i++) {
             Element e = (Element) nlist.item(i);
 
-            String title = e.getElementsByTagName("title").item(0).getTextContent();
+            String title = e.getElementsByTagName(TITLE_TAG).item(0).getTextContent();
 
-            String des = e.getElementsByTagName("description").item(0).getTextContent();
+            String des = e.getElementsByTagName(DESCRIPTION_TAG).item(0).getTextContent();
 
-            String link = e.getElementsByTagName("link").item(0).getTextContent();
+            String link = e.getElementsByTagName(LINK_TAG).item(0).getTextContent();
 
-            String idR = e.getElementsByTagName("guid").item(0).getTextContent();
-            Matcher idMatcher = Pattern.compile("p=(\\d*)").matcher(idR);
+            String idR = e.getElementsByTagName(GUID_TAG).item(0).getTextContent();
+            Matcher idMatcher = Pattern.compile(GUID_REGEX).matcher(idR);
             int id = idMatcher.find() ? Integer.valueOf(idMatcher.group(1)) : -1;
 
             records.add(new Record(id, title, des, link, 0));
@@ -54,10 +76,10 @@ public class Downloader {
         return records;
     }
 
-    private static void updateRSS() throws IOException {
-        URL url = new URL("https://www.digitaltrends.com/feed/");
+    private void updateRSS() throws IOException {
+        URL url = new URL(RSS_ADRESS);
         ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-        FileOutputStream fos = new FileOutputStream("rss.xml");
+        FileOutputStream fos = new FileOutputStream(XML_FILE);
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
     }
 }
