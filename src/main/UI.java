@@ -1,3 +1,5 @@
+package main;
+
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -39,13 +41,18 @@ public class UI {
             return false;
         } else if (idMatcher.matches()) {
             int id = Integer.valueOf(input);
-            if (Database.getInstance().getRecordById(id) != null) {
-                Database.getInstance().incrementViewCount(id);
-                System.out.println(Database.getInstance().getRecordById(id));
+            if (DAO.getInstance().getRecordById(id) != null) {
+                DAO.getInstance().incrementViewCount(id);
+                System.out.println(DAO.getInstance().getRecordById(id));
             } else {
                 System.out.println("not found.");
             }
             return false;
-        } else return exitMatcher.matches();
+        } else if(exitMatcher.matches()){
+            return true;
+        }else {
+            System.out.println("command not found");
+            return false;
+        }
     }
 }

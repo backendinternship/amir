@@ -1,3 +1,5 @@
+package main;
+
 public class Record {
     int id;
     String title;

@@ -1,7 +1,9 @@
+package main;
+
 import java.sql.*;
 import java.util.ArrayList;
 
-class Database {
+class DAO {
     public static final String RECORDS_TABLE = "records";
     public static final String VIEW_COUNT_TABLE = "vc";
     public static final String DATABASE_NAME = "rss";
@@ -11,7 +13,7 @@ class Database {
     public static final String LINK_COL = "link";
     public static final String VIEW_COUNT_COL = "vc";
 
-    private static Database instance = new Database();
+    private static DAO instance = new DAO();
     private Connection connect;
 
     {
@@ -26,10 +28,10 @@ class Database {
         }
     }
 
-    private Database() {
+    private DAO() {
     }
 
-    public static Database getInstance() {
+    public static DAO getInstance() {
         return instance;
     }
 

@@ -1,3 +1,5 @@
+package main;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
@@ -42,7 +44,7 @@ public class Downloader {
     public void downloadAndParse() {
         try {
             updateRSS();
-            Database.getInstance().updateRecords(parse());
+            DAO.getInstance().updateRecords(parse());
         } catch (ParserConfigurationException | IOException | SAXException e) {
             e.printStackTrace();
         }
