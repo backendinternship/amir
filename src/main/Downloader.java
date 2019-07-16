@@ -44,7 +44,7 @@ public class Downloader {
     public void downloadAndParse() {
         try {
             updateRSS();
-            DAO.getInstance().updateRecords(parse());
+            DAO.getInstance().insertNewRecords(parse());
         } catch (ParserConfigurationException | IOException | SAXException e) {
             e.printStackTrace();
         }

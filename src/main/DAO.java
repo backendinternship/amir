@@ -2,6 +2,7 @@ package main;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.List;
 
 class DAO {
     public static final String RECORDS_TABLE = "records";
@@ -35,7 +36,7 @@ class DAO {
         return instance;
     }
 
-    void updateRecords(ArrayList<Record> records) {
+    void insertNewRecords(List<Record> records) {
         for (Record record : records) {
             if (getRecordById(record.id) == null) {
                 try (PreparedStatement ps = connect.prepareStatement(
