@@ -19,8 +19,7 @@ public class ConfigReader {
 
     public String getFromConfigFile(String fieldName,String configFile) {
         try (Scanner scanner = new Scanner(new FileInputStream(configFile))) {
-            Pattern pattern = Pattern.compile(String.format("%s: (\\w+)", fieldName));
-
+            Pattern pattern = Pattern.compile(String.format("%s: (.+)", fieldName));
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 Matcher matcher = pattern.matcher(line);
