@@ -20,7 +20,7 @@ public class UI {
 
     public void startUI() {
         try (Scanner scanner = new Scanner(System.in)) {
-            while (true) {
+            while (scanner.hasNextLine()) {
                 String input = scanner.nextLine();
                 if (handleInput(input)) {
                     break;

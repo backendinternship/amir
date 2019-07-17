@@ -1,7 +1,5 @@
 package main;
 
-import main.Downloader;
-import main.Record;
 import org.junit.Assert;
 import org.junit.Test;
 import org.xml.sax.SAXException;

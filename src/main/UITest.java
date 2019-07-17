@@ -3,6 +3,7 @@ package main;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
@@ -25,9 +26,9 @@ public class UITest {
 
     @Test
     public void handleInput_id_exists() {
-        DAO.getInstance().insertRecord(new Record(-1,"test","test1","test2",3));
+        DAO.getInstance().insertRecord(new Record(-1, "test", "test1", "test2", 3));
         UI.getInstance().handleInput("-1");
-        assertEquals("id: -1\ntitle: test\ndes: test1\nlink: test2\nviewCount: 4\n",output.toString());
+        assertEquals("id: -1\ntitle: test\ndes: test1\nlink: test2\nviewCount: 4\n", output.toString());
         DAO.getInstance().deleteRecord(-1);
     }
 
@@ -35,7 +36,7 @@ public class UITest {
     public void handleInput_id_dosNotExist() {
         DAO.getInstance().deleteRecord(-1);
         UI.getInstance().handleInput("-1");
-        assertEquals("not found.\n",output.toString());
+        assertEquals("not found.\n", output.toString());
     }
 
     @Test
@@ -46,6 +47,13 @@ public class UITest {
     @Test
     public void handleInput_wrongCommand() {
         UI.getInstance().handleInput(":)");
-        assertEquals("command not found\n",output.toString());
+        assertEquals("command not found\n", output.toString());
+    }
+
+    @Test
+    public void startUI_all() {
+        System.setIn(new ByteArrayInputStream(":)\nexit\n".getBytes()));
+        UI.getInstance().startUI();
+        assertEquals("command not found\n", output.toString());
     }
 }
