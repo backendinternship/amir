@@ -29,11 +29,10 @@ public class UI {
         }
     }
 
-    private boolean handleInput(String input) {
+    public boolean handleInput(String input) {
         Matcher updateMatcher = Pattern.compile("update").matcher(input);
-        Matcher idMatcher = Pattern.compile("\\d+").matcher(input);
+        Matcher idMatcher = Pattern.compile("-?\\d+").matcher(input);
         Matcher exitMatcher = Pattern.compile("exit").matcher(input);
-
 
         if (updateMatcher.matches()) {
             Downloader.main(null);
@@ -41,9 +40,9 @@ public class UI {
             return false;
         } else if (idMatcher.matches()) {
             int id = Integer.valueOf(input);
-            if (DAO.getInstance().getRecordById(id) != null) {
+            if (DAO.getInstance().getRecord(id) != null) {
                 DAO.getInstance().incrementViewCount(id);
-                System.out.println(DAO.getInstance().getRecordById(id));
+                System.out.println(DAO.getInstance().getRecord(id));
             } else {
                 System.out.println("not found.");
             }

@@ -1,17 +1,16 @@
 package main;
 
 import java.sql.*;
-import java.util.List;
 
 class DAO {
-    public static final String RECORDS_TABLE = ConfigReader.getInstance().getFromConfigFile("RECORDS_TABLE");
-    public static final String VIEW_COUNT_TABLE = ConfigReader.getInstance().getFromConfigFile("VIEW_COUNT_TABLE");
-    public static final String DATABASE_NAME = ConfigReader.getInstance().getFromConfigFile("DATABASE_NAME");
-    public static final String ID_COL = ConfigReader.getInstance().getFromConfigFile("ID_COL");
-    public static final String TITLE_COL = ConfigReader.getInstance().getFromConfigFile("TITLE_COL");
-    public static final String DESCRIPTION_COL = ConfigReader.getInstance().getFromConfigFile("DESCRIPTION_COL");
-    public static final String LINK_COL = ConfigReader.getInstance().getFromConfigFile("LINK_COL");
-    public static final String VIEW_COUNT_COL = ConfigReader.getInstance().getFromConfigFile("VIEW_COUNT_COL");
+    public static final String RECORDS_TABLE = ConfigReader.getInstance().getFromConfigFile("RECORDS_TABLE", ConfigReader.DB_CONFIG_FILE);
+    public static final String VIEW_COUNT_TABLE = ConfigReader.getInstance().getFromConfigFile("VIEW_COUNT_TABLE", ConfigReader.DB_CONFIG_FILE);
+    public static final String DATABASE_NAME = ConfigReader.getInstance().getFromConfigFile("DATABASE_NAME", ConfigReader.DB_CONFIG_FILE);
+    public static final String ID_COL = ConfigReader.getInstance().getFromConfigFile("ID_COL", ConfigReader.DB_CONFIG_FILE);
+    public static final String TITLE_COL = ConfigReader.getInstance().getFromConfigFile("TITLE_COL", ConfigReader.DB_CONFIG_FILE);
+    public static final String DESCRIPTION_COL = ConfigReader.getInstance().getFromConfigFile("DESCRIPTION_COL", ConfigReader.DB_CONFIG_FILE);
+    public static final String LINK_COL = ConfigReader.getInstance().getFromConfigFile("LINK_COL", ConfigReader.DB_CONFIG_FILE);
+    public static final String VIEW_COUNT_COL = ConfigReader.getInstance().getFromConfigFile("VIEW_COUNT_COL", ConfigReader.DB_CONFIG_FILE);
 
     private static DAO instance = new DAO();
     private Connection connect;
@@ -20,8 +19,8 @@ class DAO {
         try {
             connect = DriverManager.getConnection(String.format("jdbc:mysql://localhost/%s?" + "user=%s&password=%s",
                     DATABASE_NAME,
-                    ConfigReader.getInstance().getFromConfigFile("username"),
-                    ConfigReader.getInstance().getFromConfigFile("password")));
+                    ConfigReader.getInstance().getFromConfigFile("username", ConfigReader.DB_CONFIG_FILE),
+                    ConfigReader.getInstance().getFromConfigFile("password", ConfigReader.DB_CONFIG_FILE)));
         } catch (SQLException e) {
             e.printStackTrace();
             System.exit(0);
@@ -35,26 +34,38 @@ class DAO {
         return instance;
     }
 
-    void insertNewRecords(List<Record> records) {
-        for (Record record : records) {
-            if (getRecordById(record.id) == null) {
-                try (PreparedStatement ps = connect.prepareStatement(
-                        String.format("insert into  %s.%s values (?, ?, ?, ?)", DATABASE_NAME, RECORDS_TABLE)
-                )) {
-                    ps.setString(1, String.valueOf(record.id));
-                    ps.setString(2, record.title);
-                    ps.setString(3, record.des);
-                    ps.setString(4, record.link);
-                    ps.execute();
-                } catch (SQLException e) {
-                    e.printStackTrace();
-                    return;
-                }
+    void insertRecord(Record record) {
+        try (PreparedStatement ps = connect.prepareStatement(
+                String.format("insert ignore into  %s.%s values (?, ?, ?, ?)", DATABASE_NAME, RECORDS_TABLE)
+        )) {
+            ps.setString(1, String.valueOf(record.id));
+            ps.setString(2, record.title);
+            ps.setString(3, record.des);
+            ps.setString(4, record.link);
+            ps.execute();
+
+            for (int i = 0; i < record.viewCount; i++) {
+                incrementViewCount(record.id);
             }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return;
         }
     }
 
-    Record getRecordById(int id) {
+    void deleteRecord(int id) {
+        try (PreparedStatement ps = connect.prepareStatement(
+                String.format("delete from %s.%s where %s=?", DATABASE_NAME, RECORDS_TABLE, ID_COL)
+        )) {
+            ps.setString(1, String.valueOf(id));
+            ps.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return;
+        }
+    }
+
+    Record getRecord(int id) {
         try (PreparedStatement ps = connect.prepareStatement(
                 String.format("select * from %s.%s left join %s.%s on %s.%s = %s.%s where %s.%s = ?", DATABASE_NAME
                         , RECORDS_TABLE, DATABASE_NAME, VIEW_COUNT_TABLE, RECORDS_TABLE, ID_COL, VIEW_COUNT_TABLE, ID_COL
@@ -86,7 +97,7 @@ class DAO {
             ps.setString(1, String.valueOf(id));
             if (ps.executeUpdate() == 0) {
                 try (PreparedStatement ps1 = connect.prepareStatement(
-                        String.format("insert into  %s.%s values (?, ?)",DATABASE_NAME,VIEW_COUNT_TABLE)
+                        String.format("insert into  %s.%s values (?, ?)", DATABASE_NAME, VIEW_COUNT_TABLE)
                 )) {
                     ps1.setString(1, String.valueOf(id));
                     ps1.setString(2, "1");

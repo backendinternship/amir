@@ -26,16 +26,14 @@ public class Downloader {
     public static final String GUID_TAG = "guid";
     public static final String GUID_REGEX = "p=(\\d*)";
     public static final String XML_FILE = "rss.xml";
-    public static final String RSS_ADRESS = "https://www.digitaltrends.com/feed/";
+    public static final String RSS_ADDRESS = "https://www.digitaltrends.com/feed/";
     public static final String ITEM_TAG = "item";
     private static Downloader instance = new Downloader();
 
     private Downloader() {
     }
 
-    public static void main(String[] args) {
-        Downloader.getInstance().downloadAndParse();
-    }
+    public static void main(String[] args) { Downloader.getInstance().downloadAndParse(); }
 
     public static Downloader getInstance() {
         return instance;
@@ -43,15 +41,17 @@ public class Downloader {
 
     public void downloadAndParse() {
         try {
-            updateRSS();
-            DAO.getInstance().insertNewRecords(parse());
+            downloadRSS(XML_FILE, RSS_ADDRESS);
+            for (Record record : parse(XML_FILE)) {
+                DAO.getInstance().insertRecord(record);
+            }
         } catch (ParserConfigurationException | IOException | SAXException e) {
             e.printStackTrace();
         }
     }
 
-    private ArrayList<Record> parse() throws ParserConfigurationException, IOException, SAXException {
-        File file = new File(XML_FILE);
+    public ArrayList<Record> parse(String xmlFile) throws ParserConfigurationException, IOException, SAXException {
+        File file = new File(xmlFile);
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document doc = builder.parse(file);
@@ -78,10 +78,10 @@ public class Downloader {
         return records;
     }
 
-    private void updateRSS() throws IOException {
-        URL url = new URL(RSS_ADRESS);
+    public void downloadRSS(String xmlFile, String adress) throws IOException {
+        URL url = new URL(adress);
         ReadableByteChannel rbc = Channels.newChannel(url.openStream());
-        FileOutputStream fos = new FileOutputStream(XML_FILE);
+        FileOutputStream fos = new FileOutputStream(xmlFile);
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
     }
 }

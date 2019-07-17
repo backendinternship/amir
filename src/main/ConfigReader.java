@@ -7,7 +7,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ConfigReader {
-    public static final String CONFIG_FILE = "dbconfig.txt";
+    public static final String DB_CONFIG_FILE = "dbconfig.txt";
     private static ConfigReader ourInstance = new ConfigReader();
 
     private ConfigReader() {
@@ -17,9 +17,9 @@ public class ConfigReader {
         return ourInstance;
     }
 
-    String getFromConfigFile(String name) {
-        try (Scanner scanner = new Scanner(new FileInputStream(CONFIG_FILE))) {
-            Pattern pattern = Pattern.compile(String.format("%s: (\\w+)", name));
+    public String getFromConfigFile(String fieldName,String configFile) {
+        try (Scanner scanner = new Scanner(new FileInputStream(configFile))) {
+            Pattern pattern = Pattern.compile(String.format("%s: (\\w+)", fieldName));
 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
@@ -30,7 +30,7 @@ public class ConfigReader {
             }
             return "";
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.err.println(configFile+" not found.");
             return "";
         }
     }
