@@ -1,5 +1,6 @@
 package main;
 
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -52,5 +53,12 @@ public class ConfigReaderTest {
         }catch (Exception e){
             fail();
         }
+    }
+
+    @After
+    public void deleteTestConfigFile(){
+        try {
+            Files.delete(Paths.get("testconfig.txt"));
+        } catch (IOException ignored) { }
     }
 }

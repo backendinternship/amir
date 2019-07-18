@@ -1,5 +1,8 @@
 package main;
 
+import mockit.Expectations;
+import mockit.Mocked;
+import mockit.Verifications;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -12,6 +15,9 @@ import static org.junit.Assert.assertTrue;
 
 public class UITest {
     ByteArrayOutputStream output = new ByteArrayOutputStream();
+    @Mocked Downloader downloader;
+    @Mocked DAO dao;
+    @Mocked Record record;
 
     @Before
     public void setSystemOutputStream() {
@@ -21,20 +27,42 @@ public class UITest {
     @Test
     public void handleInput_update() {
         UI.getInstance().handleInput("update");
-        assertEquals("done\n", output.toString());
+
+        new Verifications(){
+            {
+                Downloader.getInstance().downloadAndParse(); times=1;
+            }
+        };
     }
 
     @Test
     public void handleInput_id_exists() {
-        DAO.getInstance().insertRecord(new Record(-1, "test", "test1", "test2", 3));
+        new Expectations(){
+            {
+                DAO.getInstance().getRecord(anyInt);
+                result = record;
+            }
+        };
+
         UI.getInstance().handleInput("-1");
-        assertEquals("id: -1\ntitle: test\ndes: test1\nlink: test2\nviewCount: 4\n", output.toString());
-        DAO.getInstance().deleteRecord(-1);
+
+        new Verifications(){
+            {
+                DAO.getInstance().incrementViewCount(-1);
+                record.toString();
+            }
+        };
     }
 
     @Test
     public void handleInput_id_dosNotExist() {
-        DAO.getInstance().deleteRecord(-1);
+        new Expectations(){
+            {
+                DAO.getInstance().getRecord(anyInt);
+                result = null;
+            }
+        };
+
         UI.getInstance().handleInput("-1");
         assertEquals("not found.\n", output.toString());
     }
@@ -52,8 +80,19 @@ public class UITest {
 
     @Test
     public void startUI_all() {
-        System.setIn(new ByteArrayInputStream(":)\nexit\n".getBytes()));
+        new Expectations(){
+            {
+                UI.getInstance().handleInput(anyString);
+                result = true;
+            }
+        };
+        System.setIn(new ByteArrayInputStream(":)\n".getBytes()));
         UI.getInstance().startUI();
-        assertEquals("command not found\n", output.toString());
+
+        new Verifications(){
+            {
+                UI.getInstance().handleInput(":)");
+            }
+        };
     }
 }

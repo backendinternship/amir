@@ -49,7 +49,7 @@ class DAO {
                 incrementViewCount(record.id);
             }
         } catch (SQLException e) {
-            if (!e.getMessage().startsWith("Duplicate"))
+            if (!(e instanceof SQLIntegrityConstraintViolationException))
                 e.printStackTrace();
             return;
         }

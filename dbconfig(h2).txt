@@ -2,7 +2,7 @@ username: amir
 password: amir78
 
 DATABASE_DIR: h2:tcp://localhost/~/
-DATABASE_NAME: test
+DATABASE_NAME: rss
 RECORDS_TABLE: records
 VIEW_COUNT_TABLE: vc
 ID_COL: id

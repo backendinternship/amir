@@ -1,5 +1,7 @@
 package main;
 
+import mockit.Expectations;
+import mockit.Mocked;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

@@ -35,7 +35,7 @@ public class UI {
         Matcher exitMatcher = Pattern.compile("exit").matcher(input);
 
         if (updateMatcher.matches()) {
-            Downloader.main(null);
+            Downloader.getInstance().downloadAndParse();
             System.out.println("done");
             return false;
         } else if (idMatcher.matches()) {
