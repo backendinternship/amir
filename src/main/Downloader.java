@@ -41,7 +41,7 @@ public class Downloader {
 
     public void downloadAndParse() {
         try {
-            downloadRSS(XML_FILE, RSS_ADDRESS);
+            downloadRSS(XML_FILE, new URL(RSS_ADDRESS));
             for (Record record : parse(XML_FILE)) {
                 DAO.getInstance().insertRecord(record);
             }
@@ -78,8 +78,7 @@ public class Downloader {
         return records;
     }
 
-    public void downloadRSS(String xmlFile, String adress) throws IOException {
-        URL url = new URL(adress);
+    public void downloadRSS(String xmlFile, URL url) throws IOException {
         ReadableByteChannel rbc = Channels.newChannel(url.openStream());
         FileOutputStream fos = new FileOutputStream(xmlFile);
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);

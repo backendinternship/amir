@@ -1,40 +1,34 @@
 package main;
 
-import mockit.Expectations;
-import mockit.MockUp;
-import mockit.Mocked;
+import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.nio.channels.Channel;
-import java.nio.channels.Channels;
-import java.nio.channels.ReadableByteChannel;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Objects;
 
 import static org.junit.Assert.fail;
 
 public class DownloaderTest {
-
-    @Test
-    public void downloadRSS_wrongURL() {
+    @After @Before
+    public void deleteRssTest(){
         try {
             Files.delete(Paths.get("rss_test.xml"));
         } catch (IOException ignored) {
         }
+    }
 
+    @Test
+    public void downloadRSS_wrongURL() {
         try {
-            Downloader.getInstance().downloadRSS("rss_test.xml", "google.com");
+            Downloader.getInstance().downloadRSS("rss_test.xml", new URL("google.com"));
             if (isValidXml("rss_test.xml")) {
                 fail();
             }
@@ -45,12 +39,7 @@ public class DownloaderTest {
     @Test
     public void downloadRSS_rightURL() {
         try {
-            Files.delete(Paths.get("rss_test.xml"));
-        } catch (IOException ignored) {
-        }
-
-        try {
-            Downloader.getInstance().downloadRSS("rss_test.xml", Downloader.RSS_ADDRESS);
+            Downloader.getInstance().downloadRSS("rss_test.xml", Paths.get("sampleRss4Test.xml").toUri().toURL());
             if (!isValidXml("rss_test.xml")) {
                 fail();
             }
