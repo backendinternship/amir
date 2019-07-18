@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Digital Trends</title>
+	<atom:link href="https://www.digitaltrends.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.digitaltrends.com</link>
+	<description>Digital Trends is your home for technology news, CE product reviews, mobile app reviews and daily videos.</description>
+	<lastBuildDate>Thu, 18 Jul 2019 11:44:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+<image>
+	<url>https://icdn2.digitaltrends.com/image/file-a91e83bfcf376ddf370ce8ebbcef2ac8-32x32.png</url>
+	<title>Digital Trends</title>
+	<link>https://www.digitaltrends.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Walmart extends Prime Day hot deals on Apple, Samsung, HP, Dell, and Bose</title>
+		<link>https://www.digitaltrends.com/dtdeals/walmart-extends-prime-day-hot-deals-on-apple-samsung-hp-dell-and-bose/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/walmart-extends-prime-day-hot-deals-on-apple-samsung-hp-dell-and-bose/#respond</comments>
+				<pubDate>Thu, 18 Jul 2019 11:39:09 +0000</pubDate>
+		<dc:creator><![CDATA[Bruce Brown]]></dc:creator>
+				<category><![CDATA[Computing]]></category>
+		<category><![CDATA[Deals]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Wearables]]></category>
+		<category><![CDATA[Prime Day 2019]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361381</guid>
+				<description><![CDATA[Walmart doesn't want Prime Day 2019 to stop and extended the sales event beyond its original July 17 end date. We found great deals on Apple, Samsung, HP, Dell, and Bose products to highlight before they go away.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/walmart-extends-prime-day-hot-deals-on-apple-samsung-hp-dell-and-bose/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/apple-watch-series-3-gps-surfing-1-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Miss physical keyboards? Unihertz is creating a rugged phone that has one</title>
+		<link>https://www.digitaltrends.com/mobile/unihertz-titan-news/</link>
+				<comments>https://www.digitaltrends.com/mobile/unihertz-titan-news/#respond</comments>
+				<pubDate>Thu, 18 Jul 2019 11:31:59 +0000</pubDate>
+		<dc:creator><![CDATA[Mark Jansen]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[BlackBerry]]></category>
+		<category><![CDATA[keyboard phone]]></category>
+		<category><![CDATA[Rugged]]></category>
+		<category><![CDATA[Titan]]></category>
+		<category><![CDATA[Unihertz]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2359559</guid>
+				<description><![CDATA[Recently, only BlackBerry's phones have offered a physical keyboard. Not any more. Chinese manufacturer Unihertz is preparing to launch the Unihertz Titan -- a rugged phone with a built-in physical keyboard.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/mobile/unihertz-titan-news/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/unihertz-titan-icing-sugar-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Microsoft&#8217;s new HoloLens hologram can do language translation</title>
+		<link>https://www.digitaltrends.com/computing/microsoft-demos-new-hololens-hologram-language-translation-feature/</link>
+				<comments>https://www.digitaltrends.com/computing/microsoft-demos-new-hololens-hologram-language-translation-feature/#respond</comments>
+				<pubDate>Thu, 18 Jul 2019 10:35:23 +0000</pubDate>
+		<dc:creator><![CDATA[Anita George]]></dc:creator>
+				<category><![CDATA[Computing]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Azure]]></category>
+		<category><![CDATA[holograms]]></category>
+		<category><![CDATA[HoloLens 2]]></category>
+		<category><![CDATA[Microsoft]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361160</guid>
+				<description><![CDATA[Microsoft has further developed its HoloLens hologram technology to include a language translation feature. This new capability was demonstrated this week at the Microsoft Inspire partner conference in Las Vegas.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/computing/microsoft-demos-new-hololens-hologram-language-translation-feature/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/microsoft-hololens2-cropped-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Netflix raised prices and lost customers. Can a mobile-only plan win them back?</title>
+		<link>https://www.digitaltrends.com/home-theater/netflix-mobile-only-plan-india/</link>
+				<comments>https://www.digitaltrends.com/home-theater/netflix-mobile-only-plan-india/#respond</comments>
+				<pubDate>Thu, 18 Jul 2019 10:21:47 +0000</pubDate>
+		<dc:creator><![CDATA[Chris Gates]]></dc:creator>
+				<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[mobile video]]></category>
+		<category><![CDATA[Netflix]]></category>
+		<category><![CDATA[streaming services]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361291</guid>
+				<description><![CDATA[As customers fled Netflix after its latest price hikes, the company announced that a mobile-only streaming plan is coming to India -- and, just maybe, revealed how it will get those subscribers back.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/home-theater/netflix-mobile-only-plan-india/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/netflix-mobile-previews-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>IBM&#8217;s Wimbledon-watching A.I. is poised to revolutionize sports broadcasts</title>
+		<link>https://www.digitaltrends.com/cool-tech/ibm-wimbledon-watching-artificial-intelligence-revolutionize-sports/</link>
+				<comments>https://www.digitaltrends.com/cool-tech/ibm-wimbledon-watching-artificial-intelligence-revolutionize-sports/#respond</comments>
+				<pubDate>Thu, 18 Jul 2019 08:00:39 +0000</pubDate>
+		<dc:creator><![CDATA[Luke Dormehl]]></dc:creator>
+				<category><![CDATA[Emerging Tech]]></category>
+		<category><![CDATA[Ai]]></category>
+		<category><![CDATA[IBM]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[sport]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2360248</guid>
+				<description><![CDATA[IBM has developed a smart A.I. with an appreciation for what makes a great tennis match like the recent epic at Wimbledon. Here's how IBM developed it -- and why tools like it are the future of sport broadcasting.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/cool-tech/ibm-wimbledon-watching-artificial-intelligence-revolutionize-sports/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/topshot-tennis-gbr-wimbledon-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Formula E races aren&#8217;t just exciting, they&#8217;re driving EV tech into the future</title>
+		<link>https://www.digitaltrends.com/cars/formula-e-new-york-city-e-prix-shows-green-racing-is-good-racing/</link>
+				<comments>https://www.digitaltrends.com/cars/formula-e-new-york-city-e-prix-shows-green-racing-is-good-racing/#respond</comments>
+				<pubDate>Thu, 18 Jul 2019 08:00:05 +0000</pubDate>
+		<dc:creator><![CDATA[Stephen Edelstein]]></dc:creator>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[electric cars]]></category>
+		<category><![CDATA[formula e]]></category>
+		<category><![CDATA[Motor Sports]]></category>
+		<category><![CDATA[New York City E-Prix]]></category>
+		<category><![CDATA[racing]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361299</guid>
+				<description><![CDATA[Formula E made its annual trip to the Big Apple, showing just how far the all-electric racing series has come. The cars are faster, and the racing is closer, but the tailpipe emissions are still at zero.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/cars/formula-e-new-york-city-e-prix-shows-green-racing-is-good-racing/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn3.digitaltrends.com/image/formula-e-2019-jaguar-panasonic-2-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>The last two affordable station wagons in America are about to retire</title>
+		<link>https://www.digitaltrends.com/cars/volkswagen-golf-sportwagen-and-golf-alltrack-will-retire-in-2019/</link>
+				<comments>https://www.digitaltrends.com/cars/volkswagen-golf-sportwagen-and-golf-alltrack-will-retire-in-2019/#respond</comments>
+				<pubDate>Thu, 18 Jul 2019 07:06:52 +0000</pubDate>
+		<dc:creator><![CDATA[Ronan Glon]]></dc:creator>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[golf alltrack]]></category>
+		<category><![CDATA[jetta]]></category>
+		<category><![CDATA[sportswagen]]></category>
+		<category><![CDATA[Volkswagen]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361367</guid>
+				<description><![CDATA[Volkswagen confirmed it will stop making the Golf Sportwagen and the Golf Alltrack by the end of 2019. Both station wagons are at the end of their life cycle, but they won't be replaced because they compete in a shrinking segment of the market.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/cars/volkswagen-golf-sportwagen-and-golf-alltrack-will-retire-in-2019/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/2019_golf_alltrack-large-8762-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Uber&#8217;s in-car shopping service now sells way more than just snacks</title>
+		<link>https://www.digitaltrends.com/mobile/ubers-in-car-shopping-service-now-sells-way-more-than-just-snacks/</link>
+				<comments>https://www.digitaltrends.com/mobile/ubers-in-car-shopping-service-now-sells-way-more-than-just-snacks/#respond</comments>
+				<pubDate>Thu, 18 Jul 2019 06:10:35 +0000</pubDate>
+		<dc:creator><![CDATA[Trevor Mogg]]></dc:creator>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[cargo]]></category>
+		<category><![CDATA[ridesharing]]></category>
+		<category><![CDATA[Uber]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361356</guid>
+				<description><![CDATA[The Cargo Box launched in 2018 to offer Uber drivers an easy way to sell snacks and drinks to riders. The service is now expanding to include lots more items, including tech products and travel accessories.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/mobile/ubers-in-car-shopping-service-now-sells-way-more-than-just-snacks/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/cargo-uber-2-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Stalking apps: Google deletes 7 Android trackers from the Play Store</title>
+		<link>https://www.digitaltrends.com/mobile/stalking-apps-google-deletes-7-android-trackers-from-the-play-store/</link>
+				<comments>https://www.digitaltrends.com/mobile/stalking-apps-google-deletes-7-android-trackers-from-the-play-store/#respond</comments>
+				<pubDate>Thu, 18 Jul 2019 03:40:17 +0000</pubDate>
+		<dc:creator><![CDATA[Trevor Mogg]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Play Store]]></category>
+		<category><![CDATA[spyware]]></category>
+		<category><![CDATA[stalkerware]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361332</guid>
+				<description><![CDATA[Google has removed from the Play Store seven stalking apps that could track someone's phone without them knowing about it. The sneaky software also offers access to a phone's contact list, as well as its SMS and call history.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/mobile/stalking-apps-google-deletes-7-android-trackers-from-the-play-store/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/smartphone-friends-internet-connection-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>This LG 75-inch 4K TV is one of the best deals going on a big-screen television</title>
+		<link>https://www.digitaltrends.com/dtdeals/lg-75-inch-4k-tv-walmart-deal/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/lg-75-inch-4k-tv-walmart-deal/#respond</comments>
+				<pubDate>Thu, 18 Jul 2019 00:05:30 +0000</pubDate>
+		<dc:creator><![CDATA[Lucas Coll]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[4K TVs]]></category>
+		<category><![CDATA[LG 75-inch 4K TV]]></category>
+		<category><![CDATA[Smart TVs]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361219</guid>
+				<description><![CDATA[If you’re shopping for a big-screen television to enjoy your entertainment in Ultra HD and missed those Amazon Prime Day deals, then this LG 75-inch 4K TV deal is one of the best values right now on a large set for your home theater.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/lg-75-inch-4k-tv-walmart-deal/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/71zmqam4bkl-_sl1500_-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Walmart drops killer deals on TCL 4K Roku smart TVs after Prime Day</title>
+		<link>https://www.digitaltrends.com/dtdeals/walmart-tcl-4k-tv-deals-after-prime-day/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/walmart-tcl-4k-tv-deals-after-prime-day/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 23:45:08 +0000</pubDate>
+		<dc:creator><![CDATA[Jacob Kienlen]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[Prime Day 2019]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361314</guid>
+				<description><![CDATA[There are quite a few TCL 4K Roku TV deals going on at Walmart right now. With huge price cuts, many of these discounts are just as good, if not better, than Amazon's Prime Day TV deals.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/walmart-tcl-4k-tv-deals-after-prime-day/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/tcl-4-series-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Walmart drops a great deal on this Samsung 50-inch 4K HDR TV</title>
+		<link>https://www.digitaltrends.com/dtdeals/samsung-50-inch-4k-tv-deal-at-walmart/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/samsung-50-inch-4k-tv-deal-at-walmart/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 23:19:01 +0000</pubDate>
+		<dc:creator><![CDATA[Jacob Kienlen]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[Prime Day 2019]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361272</guid>
+				<description><![CDATA[This 50-inch Samsung TV is currently priced at just $328 during Walmart's summer sale. With smart functionality, HDR, and beautiful 4K UHD resolution, you get a lot for that low of a price.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/samsung-50-inch-4k-tv-deal-at-walmart/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/samsung-flat-55-inch-4k-uhd-7-series-smart-tv-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Here&#8217;s how and where you can watch the best 4K content</title>
+		<link>https://www.digitaltrends.com/home-theater/where-and-how-to-watch-4k-uhd-content/</link>
+				<comments>https://www.digitaltrends.com/home-theater/where-and-how-to-watch-4k-uhd-content/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 22:04:18 +0000</pubDate>
+		<dc:creator><![CDATA[Ryan Waniata]]></dc:creator>
+				<category><![CDATA[Buying Guides]]></category>
+		<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[4K]]></category>
+		<category><![CDATA[4k Ultra HD]]></category>
+		<category><![CDATA[Streaming]]></category>
+		<category><![CDATA[Ultra HD Blu-ray]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=684714</guid>
+				<description><![CDATA[Searching for content for your new 4K UHD TV? Look no further. We have every major source of the best 4K content, along with the cost, hardware requirements, and features that make each service worth a look.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/home-theater/where-and-how-to-watch-4k-uhd-content/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/delete-netflix-history-100-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>When is the golden hour, and what is it?</title>
+		<link>https://www.digitaltrends.com/photography/when-is-golden-hour-and-what-is-it/</link>
+				<comments>https://www.digitaltrends.com/photography/when-is-golden-hour-and-what-is-it/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 21:40:06 +0000</pubDate>
+		<dc:creator><![CDATA[Rachel Grozanick]]></dc:creator>
+				<category><![CDATA[How-To]]></category>
+		<category><![CDATA[Photography]]></category>
+		<category><![CDATA[golden hour]]></category>
+		<category><![CDATA[magic hour]]></category>
+		<category><![CDATA[photography tips]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=939627</guid>
+				<description><![CDATA[The golden hour, aka the magic hour, is a special time for photographers that happens twice a day. Here are some simple tips for making the most of this time to capture stunning portraits, landscapes, and the like.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/photography/when-is-golden-hour-and-what-is-it/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn7.digitaltrends.com/image/sunset-photo-2-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Everything coming to Apple TV+ that we know about so far</title>
+		<link>https://www.digitaltrends.com/home-theater/everything-coming-to-apple-tv-plus/</link>
+				<comments>https://www.digitaltrends.com/home-theater/everything-coming-to-apple-tv-plus/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 21:38:55 +0000</pubDate>
+		<dc:creator><![CDATA[Rick Marshall]]></dc:creator>
+				<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[Movies & TV]]></category>
+		<category><![CDATA[apple tv]]></category>
+		<category><![CDATA[apple tv plus]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2360486</guid>
+				<description><![CDATA[Here's everything we know is coming to Apple TV+, Apple's subscription video service, which already has an impressive lineup of original series and films in the works from some of Hollywood's biggest names.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/home-theater/everything-coming-to-apple-tv-plus/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/apple-tv-plus-header-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Why you’re not getting Netflix in HD or 4K, and how to fix it</title>
+		<link>https://www.digitaltrends.com/home-theater/getting-hd-netflix/</link>
+				<comments>https://www.digitaltrends.com/home-theater/getting-hd-netflix/#comments</comments>
+				<pubDate>Wed, 17 Jul 2019 21:35:35 +0000</pubDate>
+		<dc:creator><![CDATA[Parker Hall]]></dc:creator>
+				<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[How-To]]></category>
+		<category><![CDATA[4K TV]]></category>
+		<category><![CDATA[HDTV]]></category>
+		<category><![CDATA[Netflix]]></category>
+		<category><![CDATA[video streaming]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=502571</guid>
+				<description><![CDATA[Are you having trouble watching your favorite movies or TV shows on Netflix in HD or 4K? We explain why loading takes so long, why the picture quality fluctuates, and what you can do about it.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/home-theater/getting-hd-netflix/</wfw:commentRss>
+		<slash:comments>45</slash:comments>
+						<enclosure url="https://icdn4.digitaltrends.com/image/netflix-expansion-0001-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>This 55-inch Vizio 4K TV gets a huge price cut at Walmart after Prime Day</title>
+		<link>https://www.digitaltrends.com/dtdeals/vizio-55-inch-4k-tv-deal/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/vizio-55-inch-4k-tv-deal/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 21:15:37 +0000</pubDate>
+		<dc:creator><![CDATA[Lucas Coll]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[4K TV]]></category>
+		<category><![CDATA[Vizio 55-inch 4K TV]]></category>
+		<category><![CDATA[Vizio D-Series]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361077</guid>
+				<description><![CDATA[Missed Prime Day? Walmart still has a bunch of post-Prime Day deals on stuff from Apple gadgets to televisions like this Vizio 55-inch 4K TV — which is easily one of the best deals going if you're in the market for a UHD smart TV.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/vizio-55-inch-4k-tv-deal/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/vizio-d-series-0024-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>How to wall mount a TV: Tips and tricks to cut down on frustration</title>
+		<link>https://www.digitaltrends.com/home-theater/how-to-wall-mount-a-tv/</link>
+				<comments>https://www.digitaltrends.com/home-theater/how-to-wall-mount-a-tv/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 21:08:24 +0000</pubDate>
+		<dc:creator><![CDATA[Parker Hall]]></dc:creator>
+				<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[How-To]]></category>
+		<category><![CDATA[2018 tv buying guide]]></category>
+		<category><![CDATA[DIY]]></category>
+		<category><![CDATA[home improvement]]></category>
+		<category><![CDATA[installing a tv]]></category>
+		<category><![CDATA[tv mounts]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=1226609</guid>
+				<description><![CDATA[This how-to guide includes a video on how to wall mount a TV, along with other tips and tricks about the process. Step by step, we'll take you through what you have to do to successfully get your TV on your wall.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/home-theater/how-to-wall-mount-a-tv/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/wall-mount-tv-still002-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>The best PS4 games</title>
+		<link>https://www.digitaltrends.com/gaming/best-ps4-games/</link>
+				<comments>https://www.digitaltrends.com/gaming/best-ps4-games/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 21:00:17 +0000</pubDate>
+		<dc:creator><![CDATA[Gabe Gurwin]]></dc:creator>
+				<category><![CDATA[Buying Guides]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Playstation 4]]></category>
+		<category><![CDATA[PS4]]></category>
+		<category><![CDATA[Sony]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=687849</guid>
+				<description><![CDATA[Looking for the best PS4 games out there? Out of the massive crop of titles available, we selected the best you should buy. No matter what your genre of choice may be, there's something here for you.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/gaming/best-ps4-games/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn3.digitaltrends.com/image/most-anticipated-games-2019-devil-may-cry-5-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Digitize old photos and film with the best photo scanners for 2019</title>
+		<link>https://www.digitaltrends.com/photography/best-photo-scanners/</link>
+				<comments>https://www.digitaltrends.com/photography/best-photo-scanners/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 20:51:31 +0000</pubDate>
+		<dc:creator><![CDATA[Hillary K. Grigonis]]></dc:creator>
+				<category><![CDATA[Computing]]></category>
+		<category><![CDATA[Photography]]></category>
+		<category><![CDATA[Canon]]></category>
+		<category><![CDATA[Epson]]></category>
+		<category><![CDATA[Kodak]]></category>
+		<category><![CDATA[photo scanner]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361067</guid>
+				<description><![CDATA[Got a box of old photos to scan, or a batch of fresh film to digitize? The best photo scanners offer high-resolution, colorful scans along with features to make the scanning process less tedious.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/photography/best-photo-scanners/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/epson_ff-640-image-7-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Apple TV+: Everything we know about Apple&#8217;s Netflix-style streaming service</title>
+		<link>https://www.digitaltrends.com/movies/what-is-apple-tv-plus/</link>
+				<comments>https://www.digitaltrends.com/movies/what-is-apple-tv-plus/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 20:50:18 +0000</pubDate>
+		<dc:creator><![CDATA[Rick Marshall]]></dc:creator>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Movies & TV]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[apple event march 2019]]></category>
+		<category><![CDATA[apple tv]]></category>
+		<category><![CDATA[WWDC 2019]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2305664</guid>
+				<description><![CDATA[Apple has an ambitious slate of original programming it has been developing for its streaming service Apple TV+, and now we know some details about where and when we'll be able to see it. Here's everything we know about Apple TV+ so far.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/movies/what-is-apple-tv-plus/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/apple-tv-plus-press-announcement-2019-tim-cook-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>6 questions we have about Elon Musk’s Neuralink brain interface technology</title>
+		<link>https://www.digitaltrends.com/cool-tech/neuralink-elon-musk-questions/</link>
+				<comments>https://www.digitaltrends.com/cool-tech/neuralink-elon-musk-questions/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 20:47:31 +0000</pubDate>
+		<dc:creator><![CDATA[Mathew Katz]]></dc:creator>
+				<category><![CDATA[Emerging Tech]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[brain interface]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[Neuralink]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361153</guid>
+				<description><![CDATA[Elon Musk's Neuralink sounds like an exciting leap forward for human-computer relations, but brain implants raise the specter of Black Mirror-esque privacy invasions. We have a few questions about how this would work.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/cool-tech/neuralink-elon-musk-questions/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/finalmente-sapremo-neuralink-progetto-segreto-elon-musk-v3-388343-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Walmart&#8217;s 65-inch 4K TV deal is better than Amazon Prime Day</title>
+		<link>https://www.digitaltrends.com/dtdeals/65-inch-vizio-4k-tv-deal-for-walmart-prime-day/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/65-inch-vizio-4k-tv-deal-for-walmart-prime-day/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 20:45:30 +0000</pubDate>
+		<dc:creator><![CDATA[Jacob Kienlen]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[Prime Day 2019]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361145</guid>
+				<description><![CDATA[Amazon Prime Day has come and gone, but Walmart's massive sale is still going strong. There are a ton of 4K TV deals happening right now from Samsung, LG, and TCL, but the most notable discount is on this huge 65-inch Vizio smart TV.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/65-inch-vizio-4k-tv-deal-for-walmart-prime-day/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/tvs-4-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>FaceApp says it won&#8217;t hold on to your face photos. Should you trust it?</title>
+		<link>https://www.digitaltrends.com/news/faceapp-photos-privacy-terms-of-service/</link>
+				<comments>https://www.digitaltrends.com/news/faceapp-photos-privacy-terms-of-service/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 20:40:26 +0000</pubDate>
+		<dc:creator><![CDATA[Allison Matyus]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Social Media]]></category>
+		<category><![CDATA[Ai]]></category>
+		<category><![CDATA[face recognition]]></category>
+		<category><![CDATA[FaceApp]]></category>
+		<category><![CDATA[Mobile App]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2360923</guid>
+				<description><![CDATA[If you use FaceApp, you've given its parent company permission to use your face photos for pretty much anything -- even though the app-maker says it won't use them for nefarious purposes or sell them to a third party.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/news/faceapp-photos-privacy-terms-of-service/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn7.digitaltrends.com/image/faceapp-featured-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Digital Trends Live: Emoji Day, Apollo 11 broadcast, drone flamethrowers</title>
+		<link>https://www.digitaltrends.com/digital-trends-live/episode-173/</link>
+				<comments>https://www.digitaltrends.com/digital-trends-live/episode-173/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 20:18:00 +0000</pubDate>
+		<dc:creator><![CDATA[Todd Werkhoven]]></dc:creator>
+				<category><![CDATA[Digital Trends Live]]></category>
+		<category><![CDATA[Emerging Tech]]></category>
+		<category><![CDATA[Smart Home]]></category>
+		<category><![CDATA[Apollo 11]]></category>
+		<category><![CDATA[drones with flamethrowers]]></category>
+		<category><![CDATA[dt live]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361111</guid>
+				<description><![CDATA[On this episode of DT Live, we discuss the top stories in tech, including Emoji Day festivities, the extended battery life of the new Nintendo Switch, an Apollo 11 real-time broadcast, and a functional flamethrower attachment for drones.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/digital-trends-live/episode-173/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/flamethrower_drone_tf_19_3-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Vizio SB3621n-GB 2.1 review</title>
+		<link>https://www.digitaltrends.com/sound-bar-reviews/vizio-sb3621n-gb-21-review/</link>
+				<comments>https://www.digitaltrends.com/sound-bar-reviews/vizio-sb3621n-gb-21-review/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 20:14:18 +0000</pubDate>
+		<dc:creator><![CDATA[Parker Hall]]></dc:creator>
+				<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[best soundbars]]></category>
+		<category><![CDATA[Cheap Soundbars]]></category>
+		<category><![CDATA[soundbars]]></category>
+		<category><![CDATA[Vizio]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2360906</guid>
+				<description><![CDATA[With a slim subwoofer, simple connections, and the ability to easily customize your sound, Vizio’s new SB3621n-GB 2.1 Soundbar System is an excellent, affordable way to beef up your TV’s terrible audio.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/sound-bar-reviews/vizio-sb3621n-gb-21-review/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/41nyrunocyl-_sl1000_-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>The Sutro smart pool monitor is reportedly six weeks away from shipping</title>
+		<link>https://www.digitaltrends.com/home/like-to-swim-sutro-pool-monitor-makes-chlorine-maintenance-easy/</link>
+				<comments>https://www.digitaltrends.com/home/like-to-swim-sutro-pool-monitor-makes-chlorine-maintenance-easy/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 20:08:27 +0000</pubDate>
+		<dc:creator><![CDATA[Patrick Hearn]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Smart Home]]></category>
+		<category><![CDATA[smart home]]></category>
+		<category><![CDATA[smart pool monitor]]></category>
+		<category><![CDATA[sutro]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361100</guid>
+				<description><![CDATA[The Sutro Smart Pool Monitor first appeared in 2015 as part of TechCrunch's Hardware Battle and has been in development since then. According to a recent report, the company plans to ship within six weeks.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/home/like-to-swim-sutro-pool-monitor-makes-chlorine-maintenance-easy/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/sutro-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Expedia warns travelers of customer service refund scam</title>
+		<link>https://www.digitaltrends.com/news/expedia-warns-travelers-of-scam/</link>
+				<comments>https://www.digitaltrends.com/news/expedia-warns-travelers-of-scam/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 19:37:05 +0000</pubDate>
+		<dc:creator><![CDATA[Allison Matyus]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Expedia]]></category>
+		<category><![CDATA[scam]]></category>
+		<category><![CDATA[Travel]]></category>
+		<category><![CDATA[travel scam]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2360933</guid>
+				<description><![CDATA[Scammers are posing as employees of Expedia to take money from unknowing consumers. Expedia Group and the Better Business Bureau teamed up to warn consumers of these scams that have been reported within the last several days.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/news/expedia-warns-travelers-of-scam/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/airplane-mode-thumb-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>The best tech gifts under $25</title>
+		<link>https://www.digitaltrends.com/cool-tech/best-tech-gifts-under-25/</link>
+				<comments>https://www.digitaltrends.com/cool-tech/best-tech-gifts-under-25/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 19:17:13 +0000</pubDate>
+		<dc:creator><![CDATA[Drew Prindle]]></dc:creator>
+				<category><![CDATA[Buying Guides]]></category>
+		<category><![CDATA[Computing]]></category>
+		<category><![CDATA[Emerging Tech]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Photography]]></category>
+		<category><![CDATA[Smart Home]]></category>
+		<category><![CDATA[best tech under $25]]></category>
+		<category><![CDATA[tech accessories]]></category>
+		<category><![CDATA[under $25]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=660253</guid>
+				<description><![CDATA[We live in a world where you can get a cheeseburger for $1, a functioning computer for $5, and thousands of HD movies for $10 -- so it stands to reason that you should be able to pick up some pretty sweet gear for $25.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/cool-tech/best-tech-gifts-under-25/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/5buckbill-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>SpaceX&#8217;s Starhopper rocket bursts into flames during tests</title>
+		<link>https://www.digitaltrends.com/news/spacex-starhopper-rocket-fire-watch/</link>
+				<comments>https://www.digitaltrends.com/news/spacex-starhopper-rocket-fire-watch/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 19:11:56 +0000</pubDate>
+		<dc:creator><![CDATA[Emily Price]]></dc:creator>
+				<category><![CDATA[Emerging Tech]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[commercial space travel]]></category>
+		<category><![CDATA[space travel]]></category>
+		<category><![CDATA[SpaceX]]></category>
+		<category><![CDATA[starhopper]]></category>
+		<category><![CDATA[Starship]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2361064</guid>
+				<description><![CDATA[SpaceX ran into trouble Tuesday evening when a small fire erupted from the engine of a prototype rocket it was testing at the company’s facility in Boca Chica, Texas. It's not clear if the fire caused any damage to the rocket itself]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/news/spacex-starhopper-rocket-fire-watch/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/spacex-explosion-2-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+	</channel>
+</rss>
