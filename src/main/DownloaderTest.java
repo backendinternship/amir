@@ -1,5 +1,6 @@
 package main;
 
+import mockit.*;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -13,6 +14,7 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import static org.junit.Assert.fail;
 
@@ -79,4 +81,42 @@ public class DownloaderTest {
             fail();
         }
     }
+
+//    @Mocked Downloader testedDownloader;
+//    @Mocked DAO dao;
+//    @Mocked Record record;
+//    @Test
+//    public void downloadAndParse_all(){
+//        new Expectations(){
+//            {
+//                try {
+//                    Downloader.getInstance().parse(Downloader.XML_FILE);
+//                } catch (ParserConfigurationException | IOException | SAXException ignored) {
+//                }
+//                result = Arrays.asList(record);
+//            }
+//        };
+//
+//        testedDownloader.downloadAndParse();
+//
+//        new Verifications(){
+//            {
+//                testedDownloader.downloadAndParse();
+//
+//                try {
+//                    testedDownloader.downloadRSS(anyString,(URL)any);
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
+//
+//                try {
+//                    testedDownloader.parse(anyString);
+//                } catch (ParserConfigurationException | IOException | SAXException e) {
+//                    e.printStackTrace();
+//                }
+//
+//                DAO.getInstance().insertRecord(record);
+//            }
+//        };
+//    }
 }
