@@ -82,41 +82,46 @@ public class DownloaderTest {
         }
     }
 
-//    @Mocked Downloader testedDownloader;
-//    @Mocked DAO dao;
-//    @Mocked Record record;
-//    @Test
-//    public void downloadAndParse_all(){
-//        new Expectations(){
-//            {
-//                try {
-//                    Downloader.getInstance().parse(Downloader.XML_FILE);
-//                } catch (ParserConfigurationException | IOException | SAXException ignored) {
-//                }
-//                result = Arrays.asList(record);
-//            }
-//        };
-//
-//        testedDownloader.downloadAndParse();
-//
-//        new Verifications(){
-//            {
-//                testedDownloader.downloadAndParse();
-//
-//                try {
-//                    testedDownloader.downloadRSS(anyString,(URL)any);
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//
-//                try {
-//                    testedDownloader.parse(anyString);
-//                } catch (ParserConfigurationException | IOException | SAXException e) {
-//                    e.printStackTrace();
-//                }
-//
-//                DAO.getInstance().insertRecord(record);
-//            }
-//        };
-//    }
+    @Mocked DAO dao;
+    @Test
+    public void downloadAndParse_all(){
+        new Expectations(Downloader.getInstance()){
+            {
+                try {
+                    Downloader.getInstance().parse(Downloader.XML_FILE);
+                } catch (ParserConfigurationException | IOException | SAXException ignored) {
+                }
+                result =new ArrayList<Record>(Arrays.asList(new Record(1,"1","1","1",1)));
+
+                try {
+                    Downloader.getInstance().downloadRSS(anyString,(URL)any);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                result = null;
+            }
+        };
+
+        Downloader.getInstance().downloadAndParse();
+
+        new Verifications(){
+            {
+                Downloader.getInstance().downloadAndParse();
+
+                try {
+                    Downloader.getInstance().downloadRSS(anyString,(URL)any);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                try {
+                    Downloader.getInstance().parse(anyString);
+                } catch (ParserConfigurationException | IOException | SAXException e) {
+                    e.printStackTrace();
+                }
+
+                DAO.getInstance().insertRecord((Record)any);
+            }
+        };
+    }
 }
